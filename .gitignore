@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# =========================
+# Jupyter / IDE
+# =========================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Selenium / Browser Data
+# =========================
+selenium_profile/
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+
+# =========================
+# Data Files (Sensitive / Large)
+# =========================
+data/raw/
+data/processed/
+*.csv
+*.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# NLTK Downloads
+# =========================
+nltk_data/
+# =========================
+# selenium profile
+# =========================
+selenium_profile
+selenium_profile_clean
